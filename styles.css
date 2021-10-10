@@ -39,3 +39,18 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+#reload{
+  margin:50px;
+  padding:10px 20px 10px 20px;
+  border:none;
+  font-size:2rem;
+  border-radius: 0.5;
+  cursor: pointer;
+  color:#329da8;
+}
+#reload:hover{
+color:aliceblue;
+background-color: #329da8;
+transition: 0.5s;
+}
+
