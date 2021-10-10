@@ -7,7 +7,8 @@ var randomDiceImage1="dice" + randomNumber1 + ".png";
 
 var randomImageSource1="images/"+randomDiceImage1;
 
-var image1=document.querySelectorAll("img")[0];
+var image1=document.querySelectorAll("img")[0]; 
+var play=document.querySelector("#reload"); //variable for refresh button.
 
 image1.setAttribute("src",randomImageSource1);
 
@@ -31,3 +32,8 @@ else if(randomNumber2>randomNumber1){
 else{
   document.querySelector("h1").innerHTML="Draw";
 }
+
+//code to reload when clicked on refresh button.
+play.addEventListener('click',()=>{
+  window.location.reload(true);
+});
